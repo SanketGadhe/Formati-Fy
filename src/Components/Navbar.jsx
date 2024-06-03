@@ -23,7 +23,7 @@ const Navbar = () => {
             <li>
               <NavLink>Home</NavLink>
             </li>
-            <li>
+            <li className="relative inline-block">
               <NavLink
                 className={
                   "px-4 bg-white  rounded-xl text-black flex items-center"
@@ -34,7 +34,9 @@ const Navbar = () => {
               >
                 Project <IoMdArrowDropdown />
               </NavLink>
-              {/* <Dropdown/> */}
+             {
+              dropdown?<Dropdown/>:''
+             }
             </li>
             <li>
               <NavLink>Templates</NavLink>
