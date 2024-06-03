@@ -68,7 +68,7 @@ const Navbar = () => {
       <div className="navbar flex justify-between">
         <div className="logo flex ">
           <img
-            src="src\Static\logo.png"
+            src="src/Static/logo.png"
             width={"100px"}
             height={"50px"}
             alt=""
